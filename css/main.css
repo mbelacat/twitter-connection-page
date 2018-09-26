@@ -98,20 +98,153 @@ textarea {
    ========================================================================== */
 
 
+/* ======================  START UTILITY CLASSES  =============================== */
+
+body{
+
+}
+button{
+  border-radius: 20px;
+}
+/* ====================== END UTILITY CLASSES   ============================== */
+
+
+/* ======================  START COMMUN RULES  ================================ */
+
+
+
+/* ======================  END COMMUN RULES  ================================ */
 
 
 
 
+/* ======================  START MAIN  ================================ */
+
+main{
+  display:flex;
+  height: 90vh;
+  width: 100%;
+
+}
+aside{
+  height: 100%;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  justify-content: center;
+}
+
+form.form-tel-email.form-inline{
+  align-items: flex-start;
+}
+.form-twitter-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  font-weight: bold;
+}
+.form-tel-email{
+  width: 100%;
+  height: 20%;
+
+}
+
+.form-twitter-two-button {
+  width: 70%;
+  height: 55%;
+}
+
+.left{
+  background-color: #1DA1F2;
+}
+.left.favicon{
+  font-weight: bold;
+}
+.right{
+
+}
+.total-form{
+  width:90%;
+  height: 90%;
+  align-items: center;
+}
+
+
+.favicons{
+  width: 50%;
+  height: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  color: white;
+  font-style:bold;
+}
+
+.favs{
+  height: 30%;
+  width: 100%;
+  font-size: 20px;
+}
+
+.form-control.mr-2 .password.form-control.mr-2{
+  width: 38%;
+}
+
+.form-tel-button{
+  width: 20%;
+  border-radius: 15px;
+  background-color: white;
+  border-width: 1px;
+  color: #1DA1F2;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.connexion, .subscription{
+  border-radius: 20px;
+  border-color: #1DA1F2;
+  
+}
+
+button.connexion{
+  background-color: white;
+  border-width: 1px;
+  color: #1DA1F2;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+button.subscription{
+  background-color:  #1DA1F2;
+}
+.fa-twitter {
+  font-size: 3em;
+  color: #1DA1F2;
+}
+/* ======================  END MAIN  ================================ */
 
 
 
+/* ======================  START FOOTER ================================ */
+footer {
+  height: 10vh;
+  text-align: center;
+}
 
-
-
-
-
-
-
+footer a, footer i {
+  color: #C3CDD4;
+  font-size: 12px;
+}
+.link{
+  width: 90%;
+  margin: auto;
+}
+/* ======================  END FOOTER  ================================ */
 
 /* ==========================================================================
    Helper classes

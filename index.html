@@ -33,20 +33,17 @@
     <!--::::::::::::::::::::::::::::: left aside start  ------------------------------>
 
     <aside class="left">
-
-        <div class="">
-          <i class="fas fa-search"></i>
-          <p>Suivez vos passions.</p>
+      <div class="favicons">
+        <div class="favs">
+          <i class="fas fa-search"> Suivez vos passions.</i>
         </div>
-        <div class="">
-          <i class="far fa-user-friends"></i>
-          <p>Découvrez ce dont les gens parlent.</p>
+        <div class="favs">
+          <i class="far fa-user-friends"> Découvrez ce dont les gens parlent</i>
         </div>
-        <div class="">
-          <i class="far fa-comment"></i>
-          <p>Rejoignez la conversation.</p>
+        <div class="favs">
+          <i class="far fa-comment"> Rejoignez la conversation.</i>
         </div>
-
+      </div>
     </aside>
     <!--::::::::::::::::::::::::::::: left aside end   ------------------------------>
 
@@ -54,34 +51,25 @@
 
     <aside class="right">
 
-
-      <form class="form-inline">
-        <div class="form-group">
-          <input type="text" class="form-control"  aria-describedby="telEmail" placeholder="Téléphone, émail ou nom d'utilisateur">
-        </div>
-        <div class="form-group">
-          <input type="password" class="form-control" placeholder="Mot de passe">
-          <small id="telEmail" class="form-text text-muted"><a href="">Mot de passe oublié?</a></small>
-        </div>
-        <button type="submit" class="btn btn-primary">Se connecter</button>
-      </form>
-      <div>
-        <i class="fab fa-twitter"></i>
-      </div>
-      <p>Découvrez ce qui se passe dans le monde en temps réel</p>
-
-      <div>
-        <div>
-          <i></i>
-          <p></p>
-        </div>
-        <p>
-          Rejoignez Twitter aujourd'hui.
-        </p>
-        <form class="form-group">
-          <button type="submit" name="button" class="btn btn-primary  btn-block"> S'inscrire</button>
-          <button type="submit" class="btn btn-primary ">Se connecter</button>
+      <div class="total-form">
+        <form class="form-inline form-tel-email ">
+          <input type="text" class="form-control mr-2"   placeholder="Téléphone, émail ou nom d'utilisateur">
+          <div <class="password">
+            <input type="password" class="form-control mr-2" aria-describedby="telEmail" placeholder="Mot de passe">
+            <small id="telEmail" class="form-text text-muted"><a href="">Mot de passe oublié?</a></small>
+          </div>
+          <button type="submit" class="btn btn-primary form-tel-button">Se connecter</button>
         </form>
+
+        <div class="form-twitter-content">
+          <div class="form-twitter-two-button">
+            <i class="fab fa-twitter fa-3x"></i>
+            <h1>Découvrez ce qui se passe dans le monde en temps réel</h1>
+            <p>Rejoignez Twitter aujourd'hui.</p>
+            <button type="submit" name="button" class="btn btn-primary  btn-block subscription">S'inscrire</button>
+            <button type="submit" name="button" class="btn btn-primary  btn-block connexion">Se connecter</button>
+          </div>
+        </div>
       </div>
     </aside>
     <!--::::::::::::::::::::::::::::: right aside end  ------------------------------>
@@ -92,25 +80,26 @@
   :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
 
   <footer>
-    <a href="">A propos</a>
-    <a href="">centre d'assistance</a>
-    <a href="">Blog</a>
-    <a href="">Etat de service</a>
-    <a href="">Offres d'Emploi</a>
-    <a href="">Conditions</a>
-    <a href="">Politique de confidentialité</a>
-    <a href="">Cookies</a>
-    <a href="">INformations sur la publicité</a>
-    <a href="">Marque</a>
-    <a href="">Application</a>
-    <a href="">publicité</a>
-    <a href="">Marqueting</a>
-    <a href="">Professionnels</a>
-    <a href="">Developpeurs</a>
-    <a href="">Annuaire</a>
-    <a href="">Paramètres</a>
-    <p> <i class="far fa-copyright"></i>2018 Twitter</p>
-
+    <div class="link">
+      <a href="">A propos</a>
+      <a href="">centre d'assistance</a>
+      <a href="">Blog</a>
+      <a href="">Etat de service</a>
+      <a href="">Offres d'Emploi</a>
+      <a href="">Conditions</a>
+      <a href="">Politique de confidentialité</a>
+      <a href="">Cookies</a>
+      <a href="">INformations sur la publicité</a>
+      <a href="">Marque</a>
+      <a href="">Application</a>
+      <a href="">publicité</a>
+      <a href="">Marqueting</a>
+      <a href="">Professionnels</a>
+      <a href="">Developpeurs</a>
+      <a href="">Annuaire</a>
+      <a href="">Paramètres</a>
+      <i class="far fa-copyright">2018 Twitter</i>
+    </div>
   </footer>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
