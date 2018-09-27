@@ -138,23 +138,21 @@ aside{
 
 form.form-tel-email.form-inline{
   align-items: flex-start;
+  height: 10%;
 }
 .form-twitter-content{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 75%;
+  height: 90%;
+  width: 60%;
+  widows: ;
   font-weight: bold;
 }
 .form-tel-email{
   width: 100%;
   height: 20%;
 
-}
-
-.form-twitter-two-button {
-  width: 70%;
-  height: 55%;
 }
 
 .left{
@@ -208,7 +206,7 @@ form.form-tel-email.form-inline{
 .connexion, .subscription{
   border-radius: 20px;
   border-color: #1DA1F2;
-  
+
 }
 
 button.connexion{
