@@ -1,17 +1,17 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="fr">
 
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
+  <title>Twitter connection</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <!-- Place favicon.ico in the root directory -->
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -22,12 +22,86 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+
+  <!--:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                      MAIN
+  :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+
+  <main>
+    <!--::::::::::::::::::::::::::::: left aside start  ------------------------------>
+
+    <aside class="left">
+      <div class="favicons">
+        <div class="favs">
+          <i class="fas fa-search"> Suivez vos passions.</i>
+        </div>
+        <div class="favs">
+          <i class="far fa-user-friends"> Découvrez ce dont les gens parlent</i>
+        </div>
+        <div class="favs">
+          <i class="far fa-comment"> Rejoignez la conversation.</i>
+        </div>
+      </div>
+    </aside>
+    <!--::::::::::::::::::::::::::::: left aside end   ------------------------------>
+
+    <!--::::::::::::::::::::::::::::: right aside start  ------------------------------>
+    <aside class="right">
+      <div class="total-form">
+        <form class="form-inline form-tel-email ">
+          <input type="text" class="form-control mr-2"   placeholder="Téléphone, émail ou nom d'utilisateur">
+          <div <class="password">
+            <input type="password" class="form-control mr-2" aria-describedby="telEmail" placeholder="Mot de passe">
+            <small id="telEmail" class="form-text text-muted"><a href="">Mot de passe oublié?</a></small>
+          </div>
+          <button type="submit" class="btn btn-primary form-tel-button">Se connecter</button>
+        </form>
+
+        <div class="form-twitter-content">
+            <i class="fab fa-twitter fa-3x"></i>
+            <h1>Découvrez ce qui se passe dans le monde en temps réel</h1>
+            <p>Rejoignez Twitter aujourd'hui.</p>
+            <button type="submit" name="button" class="btn btn-primary  btn-block subscription">S'inscrire</button>
+            <button type="submit" name="button" class="btn btn-primary  btn-block connexion">Se connecter</button>
+        </div>
+      </div>
+    </aside>
+    <!--::::::::::::::::::::::::::::: right aside end  ------------------------------>
+  </main>
+  <!--:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+                                      FOOTER
+  :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+  <footer>
+    <div class="link">
+      <a href="">A propos</a>
+      <a href="">centre d'assistance</a>
+      <a href="">Blog</a>
+      <a href="">Etat de service</a>
+      <a href="">Offres d'Emploi</a>
+      <a href="">Conditions</a>
+      <a href="">Politique de confidentialité</a>
+      <a href="">Cookies</a>
+      <a href="">INformations sur la publicité</a>
+      <a href="">Marque</a>
+      <a href="">Application</a>
+      <a href="">publicité</a>
+      <a href="">Marqueting</a>
+      <a href="">Professionnels</a>
+      <a href="">Developpeurs</a>
+      <a href="">Annuaire</a>
+      <a href="">Paramètres</a>
+      <i class="far fa-copyright">2018 Twitter</i>
+    </div>
+  </footer>
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
