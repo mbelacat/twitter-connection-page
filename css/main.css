@@ -161,9 +161,10 @@ form.form-tel-email.form-inline{
   font-weight: bold;
 }
 .form-twitter-content{
+  background-color: grey;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 .total-form{
   width:90%;
